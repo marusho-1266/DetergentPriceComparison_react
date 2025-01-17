@@ -3,9 +3,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
@@ -16,6 +18,9 @@
       "not dead",
       "not op_mini all"
     ],
+
+    "homepage": "https://marusho-1266.github.io/DetergentPriceComparison_react/",
+
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
